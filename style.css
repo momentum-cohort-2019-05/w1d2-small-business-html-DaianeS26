@@ -1,0 +1,33 @@
+/* All Pages */
+
+body{
+    font-family: 'Poppins', sans-serif;
+    /* margin: 0 auto; */
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 15px;
+}
+
+header{
+    text-align: center;
+}
+
+span.bold{
+    color: green;
+}
+
+/* In stock and Info */
+/* 
+.decor{
+    width: 400px;
+    background-color: blue;
+    height: 100px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.decor h1{
+    padding-top: 20px;
+} */
