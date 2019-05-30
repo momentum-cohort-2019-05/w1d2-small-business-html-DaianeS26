@@ -2,7 +2,7 @@
 
 body{
     font-family: 'Poppins', sans-serif;
-    /* margin: 0 auto; */
+    margin: 10 auto;
 }
 
 nav ul li{
@@ -18,16 +18,59 @@ span.bold{
     color: green;
 }
 
+/* Index */
+
+img{
+    border-radius: 20px;
+}
+
+.main-content{
+    padding-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: justify;
+    
+}
+
+
 /* In stock and Info */
-/* 
+
 .decor{
     width: 400px;
-    background-color: blue;
+    background-image: linear-gradient(to right top, #6b7ad1, #6e83d6, #728cda, #7794de, #7d9de2, #75a9eb, #6fb4f2, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
     height: 100px;
     margin: 0 auto;
-    border-radius: 10px;
+    border-radius: 50px;
 }
 
 .decor h1{
-    padding-top: 20px;
-} */
+    padding-top: 25px;
+}
+
+/* In stock */
+
+.stock{
+    width: 40%;
+    float: left;
+    padding-top: 30px;
+    margin-left: 30px;
+    text-align: justify;
+    padding-left: 20px;
+}
+
+.center{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 50%;
+}
+
+.right{
+    margin-right: -30px;
+}
+
+/* Info */
+
+.info{
+    padding-top: 30px;
+}
