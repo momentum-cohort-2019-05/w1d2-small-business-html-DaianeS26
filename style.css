@@ -3,11 +3,31 @@
 body{
     font-family: 'Poppins', sans-serif;
     margin: 10 auto;
+    color: #151515;
+    background-image: url("/Users/daianedasilva/Momentum/SmallBusiness/w1d2-small-business-html-DaianeS26/yellowflowers.jpg");
+    background-size: cover;
 }
 
 nav ul li{
     display: inline-block;
     padding: 15px;
+    
+}
+
+nav a{
+    text-decoration: none;
+}
+
+li a:hover{
+ color: #6b7ad1;
+}
+
+li a:visited{
+    color: green;
+}
+
+li a:active{
+    color: purple;
 }
 
 header{
@@ -15,13 +35,15 @@ header{
 }
 
 span.bold{
-    color: green;
+    color: red;
 }
 
 /* Index */
 
-img{
+header img{
     border-radius: 20px;
+    width: 600px;
+    height: 400px;
 }
 
 .main-content{
@@ -48,6 +70,17 @@ img{
 }
 
 /* In stock */
+
+img{
+    width: 300px;
+    height: 300px;
+    border: 10px solid #fff;
+
+}
+
+details{
+    text-align: center;
+}
 
 .stock{
     width: 40%;
